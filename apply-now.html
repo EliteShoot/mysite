@@ -4,13 +4,13 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Plan Your Home Financing with Our Home Loan Calculator: Easily Estimate Your Monthly Payments</title>
+	<title>Apply Now for a Mortgage with Infiniti Lending Group - Your Trusted Lending Partner</title>
 	<!-- favicons Icons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
 	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
 	<link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-	<meta name="description" content="Infiniti Lending offers a free and user-friendly home loan calculator to help you plan and budget for your home financing needs. With our calculator, you can quickly estimate your monthly mortgage payments based on the loan amount, interest rate, and loan term." />
+	<meta name="description" content="Looking for a trusted lending partner for your mortgage needs? Look no further than Infiniti Lending Group! Our easy and secure online application process makes it simple to get started." />
 
 	<!-- fonts -->
 
@@ -26,7 +26,6 @@
 	<link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
 	<link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
 	<link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.min.css" />
-	<link rel="stylesheet" href="assets/vendors/bootstrap-datepicker/bootstrap-datepicker3.min.css" />
 	<link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
 	<link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
 	<link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
@@ -34,18 +33,19 @@
 	<link rel="stylesheet" href="assets/vendors/owl-carousel/assets/owl.carousel.min.css" />
 	<link rel="stylesheet" href="assets/vendors/owl-carousel/assets/owl.theme.default.min.css" />
 	
-    <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/finlon.css" />
+
+	<!-- template styles -->
+	<link rel="stylesheet" href="assets/css/finlon.css" />
 </head>
 
 <body class="custom-cursor">
 
-    <div class="custom-cursor__cursor"></div>
-    <div class="custom-cursor__cursor-two"></div>
+	<div class="custom-cursor__cursor"></div>
+	<div class="custom-cursor__cursor-two"></div>
 
-    <div class="preloader">
-        <div class="preloader__image"></div>
-    </div>
+	<div class="preloader">
+		<div class="preloader__image"></div>
+	</div>
     <!-- /.preloader -->
     <div class="page-wrapper">
         <div class="topbar topbar--two">
@@ -118,152 +118,191 @@
 			<div class="container">
 				<ul class="thm-breadcrumb list-unstyled">
 				</ul><!-- /.thm-breadcrumb list-unstyled -->
-				<h2>Home Loan Calculator</h2>
+				<h2>Apply Now</h2>
 			</div><!-- /.container -->
 		</section><!-- /.page-header -->
 		
-		<section class="loan-Calculator pt-120 pb-120">                
+		
+		<section class="finloan-apply-one pt-120 pb-120">
 			<div class="container">
-				<div class="loan-calculator__box" id="home-loan-calculator">
-					<!-- <div class="loan-calculator__top">
+				<form action="apply-now.php" method="post" class="form-one contact-one__form">
+					<div class="contact-one__form-box">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="block-title">
+									<p class="block-title__tagline">Loan Info</p>
+									<h2 class="block-title__title">Loan Details</h2>
+								</div><!-- /.block-title-->
+							</div><!-- /.col-md-12-->
+						</div><!-- /.row-->
+
 						<div class="row">
 							<div class="col-md-6">
-								<div class="block-title text-left">
-									<p class="block-title__tagline">calculate your rate</p> --><!-- block-title__tagline -->
-									<!-- <h2 class="block-title__title">How much do you need loan for you?</h2> --><!-- block-title__title -->   
-								<!-- </div> --><!-- block-title --> 
-							<!-- </div> --><!-- col-md-6 -->
-							<!-- <div class="col-md-6"> -->
-								<!-- <p class="loan-calculator__top__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam elementum pulvinar etiam non quam lacus.</p> --><!-- loan-calculator__top__text -->
-							<!-- </div> --><!-- /. col-md=6 --> 
-						<!-- </div> --><!-- row -->
-					<!-- </div> -->
-					<div class="row">
-						<div class="col-xl-7 col-lg-12">
-							<div class="slider-box">
-								<form  action="#">
-									<div class="main-heading block-title text-left">
-										<p class="block-title__tagline mb-0">Monthly EMI</p>
-										<h3 class="block-title__title w-500">Home Loan EMI Calculator</h3>
-									</div>    
-									<div class="main-slide">
-										<div class="single-loan-header">
-											<h4>Loan Amount</h4>
-											<input class="form-control" type="text" name="pricipal" id="emi-principal-input" onkeypress='return onlynumeric(event)'>
-										</div>
-										<div id="emi-principal-slide" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-											<div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"></div>
-											<span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 1.80361%;"></span>
-										</div>
-										<div class="loan-counter-value">
-											<span>$</span>
-											<h6 id="emi-principal-show"></h6>
-										</div>
-									</div>
-									<div class="main-slide">
-										<div class="single-loan-header">
-											<h4>Loan Years</h4>
-											<input class="form-control" type="text" name="loan-year" id="emi-year-input" onkeypress='return onlynumeric(event)'>
-										</div>
-										<div id="emi-year-slide" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-											<div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"></div>
-											<span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 31.0345%;"></span>
-										</div>
-										<div class="loan-counter-value">
-											<h6 id="emi-totalyear-show"></h6>
-											<span>Years</span>
-										</div>
-									</div>
-									<div class="main-slide">
-										<div class="single-loan-header">
-											<h4>Interest Rate</h4>
-											<input class="form-control" type="text" name="interest-rate" id="interest-rate-input"
-											onkeypress='return onlynumeric(event)'>
-										</div>
-										<div id="emi-interest-slide" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-											<div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"></div>
-											<span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 48.7603%;"></span>
-										</div>
-										<div class="loan-counter-value">
-											<h6 id="emi-interest-show"></h6>
-											<span>%</span>
-										</div>
-									</div>
-								</form><!-- form -->
-							</div><!-- slider-box -->
-						</div><!-- col-xl-7 -->
+								<div class="form-group">
+									<label>Loan Amount*</label>
+									<input class="form-control" type="number" name="loanamount"  placeholder="Loan Amount" required>
+								</div><!-- /.form-group-->
+							</div><!-- /.col-md-6-->
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>Monthly Income*</label>
+									<input class="form-control" type="number" name="income"  placeholder="Monthly Income" required>
+								</div><!-- /.form-group-->
+							</div><!-- /.col-md-6-->
+						</div><!-- /.row-->
 
-						<div class="col-xl-5">
-							<div class="loan-calculation">
-								<div class="loan-calculation-content total-loan-form-emi">
-									<div class="total-loan-form-calculation">
-										<div class="loan-calculation-details">
-											<p class="loan-form-calculation">
-												<span>Monthly EMI</span>
-												<b>$<i id="monthly-emi"></i></b>
-											</p>
-											<p class="loan-form-calculation">
-												<span>Total Interest</span>
-												<b>$<i id="total-interest"></i></b>
-											</p>
-											<p class="loan-form-calculation">
-												<span>Total Amount Payable</span>
-												<b>$<i id="total-amount"></i></b>
-											</p>
-										</div>
-										<div class="row">
-											<div class="col-xl-6">
-												<a href="https://www.blink.mortgage/app/signup/p/infinitilendinggroupllc/freddiehurmoz" target="_blank" class="thm-btn" target="_blank" rel="nofollow">Free Quote</a>
-											</div>
-											<div class="col-xl-6">
-												<a href="#" data-target="amortization-chart" class="thm-btn scroll-to-chart" rel="nofollow">View Chart</a>
-											</div>
-										</div>
-									</div><!-- total-loan-form-calculation -->
-								</div><!-- loan-calculation-content -->
-							</div><!--loan-calculation-->
-							<div class="loan-start-date">
-								<label for="start-date"><h4>Select Start Date</h4></label>
-								<input type="text" class="datepicker" id="start-date" readonly>
-								<i class="fas fa-calendar-alt"></i>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>Purpose of Loan</label>
+									<select name="purposeloan" class="form-control" required>
+										<option value="">Select Purpose of Loan</option>
+										<option value="Business">Business</option>
+										<option value="Home Purchase">Home Purchase</option>
+										<option value="Car Purchase">Car Purchase</option>
+										<option value="Holiday">Holiday</option>
+										<option value="Wedding">Wedding</option>
+										<option value="Investment">Investment</option>
+										<option value="Payday Loan">Payday Loan</option>
+										<option value="Startup">Startup</option>
+										<option value="Other">Other</option>
+									</select>
+									<i class="fas fa-chevron-down"></i>
+								</div><!-- /.form-group-->
+							</div><!-- /.col-md-6-->
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>Loan Years</label>
+									<select id="loanyears" name="loanyears" class="form-control" required>
+										<option value="">Select Loan Year</option>
+										<option value="6 Months">6 Months</option>
+										<option value="1 Year">1 Year</option>
+										<option value="2 Years">2 Years</option>
+										<option value="3 Years">3 Years</option>
+										<option value="4 Years">4 Years</option>
+										<option value="5 Years">5 Years</option>
+										<option value="6 Years">6 Years</option>
+										<option value="7 Years">7 Years</option>
+										<option value="8 Years">8 Years</option>
+										<option value="9 Years">9 Years</option>
+										<option value="10 Years">10 Years</option>
+										<option value="11 Years">11 Years</option>
+										<option value="12 Years">12 Years</option>
+										<option value="13 Years">13 Years</option>
+										<option value="14 Years">14 Years</option>
+										<option value="15+ Years">15+ Years</option>
+									</select>
+									<i class="fas fa-chevron-down"></i>
+								</div><!-- /.form-group-->
+							</div><!-- /.col-md-6-->
+						</div><!-- /.row-->
+					</div><!-- /.contact-one__form-box-->
+					<div class="contact-one__form-box">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="block-title pt-50">
+									<p class="block-title__tagline">Personal Info</p>
+									<h2 class="block-title__title">Personal Details</h2>
+								</div><!-- /.block-title-->
+							</div><!-- /.col-md-12-->
+						</div><!-- /.row-->
+
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>Full Name*</label>
+									<input class="form-control" type="text" name="yourname" placeholder="Full Name" required>
+								</div><!-- /.form-group-->
+							</div><!-- /.col-md-6-->
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>Email*</label>
+									<input class="form-control" type="email" name="your-email" placeholder="Your Email" required>
+								</div><!-- /.form-group-->
+							</div><!-- /.col-md-6-->
+						</div><!-- /.row-->
+
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>Mobile Number*</label>
+									<input class="form-control" type="number" name="phonenumber" placeholder="Mobile Number" required>
+								</div><!-- /.form-group-->
+							</div><!-- /.col-md-6-->
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>Marital Status*</label>
+									<select name="maritalstatus" class="form-control" required>
+										 <option value="">Select Martial Status</option>
+										<option value="Single">Single</option>
+										<option value="Married">Married</option>
+										<option value="Co Habiting">Co Habiting</option>
+										<option value="Separated">Separated</option>
+										<option value="Divorced">Divorced</option>
+										<option value="Civil Union">Civil Union</option>
+										<option value="Widowed">Widowed</option>
+										<option value="Partner">Partner</option>
+									</select>
+									<i class="fas fa-chevron-down"></i>
+								</div><!-- /.form-group-->
+							</div><!-- /.col-md-6-->                            
+						</div><!-- /.row-->
+
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>Birth Date*</label>
+									<input class="form-control" type="text" name="birthdate" placeholder="Birth Date" required>
+								</div><!-- /.form-group-->
+							</div><!-- /.col-md-6-->
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>Taxpayer ID*</label>
+									<input class="form-control" type="number" name="taxpayer" placeholder="Taxpayer ID" required>
+								</div><!-- /.form-group-->
+							</div><!-- /.col-md-6-->           
+						</div><!-- /.row-->
+					</div><!-- /.contact-one__form-box-->
+					<div class="contact-one__form-box">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="block-title pt-50">
+									<p class="block-title__tagline">Other Info</p>
+									<h2 class="block-title__title">Other Details</h2>
+								</div><!-- /.block-title-->
+							</div><!-- /.col-md-12-->
+						</div><!-- /.row-->
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>Property Location*</label>
+									<input class="form-control" type="text" name="address" placeholder="Address" required> 
+								</div>
 							</div>
-						</div> <!-- col-xl-5 -->
-					</div><!-- row -->
-					<div class="row">
-						<div class="col-xl-12">							
-							<div class="main-heading block-title text-left">
-								<!-- <p class="block-title__tagline mb-0">Amortization Schedule</p> -->
-								<h3 class="block-title__title w-500">Amortization Schedule</h3>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>Employer Status*</label>
+									<select name="employer_status" class="form-control" required>
+										 <option value="">Select Employer Status</option>
+										<option value="Full Time Employed">Business</option>
+										<option value="Part Time Employed">Self Employed</option>
+										<option value="Self Employed">Government Job</option>
+										<option value="Temporarily Employed">Private Job</option
+										><option value="Student">Student</option>
+										<option value="Pension">Other</option>
+									</select>
+									<i class="fas fa-chevron-down"></i>
+								</div><!-- /.form-group-->
+							</div><!-- col-md-6 -->
+							<div class="col-md-12">
+								<input type="submit" value="Submit" class="thm-btn">
 							</div>
-							<div class="amortization-schedule">
-								<div class="amortization-inner">
-									<div class="amortization-title">
-										<div class="amortization-title-inner">Month</div>
-										<div class="amortization-title-inner">Principal <span>(A)</span></div>
-										<div class="amortization-title-inner">Interest Paid <span>(B)</span></div>
-										<div class="amortization-title-inner total-payment-title">Total Payment <span>(A + B)</span></div>
-										<div class="amortization-title-inner">Balance</div>
-									</div>
-									<div class="amortization-content">
-									
-									</div>	
-								</div><!-- amortization-inner -->
-							</div><!-- amortization-schedule -->
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<div class="main-heading">
-								<h3 class="block-title__title w-500">Amortization Chart</h3>
-							</div>
-							<div class="loan-calculation-chart">
-		                        <div id="loan-chart-amortization"></div>
-		                    </div>
-						</div><!-- col-md-12 -->
-					</div><!-- row -->
-				</div><!-- loan-calculator__box -->
-			</div>  <!-- container -->
-		</section>  <!-- calculator -->
+						</div><!-- row -->
+					</div><!-- contact-one__form-box -->
+				</form><!-- /.contact-one__form-->
+			</div><!-- /.container-->
+		</section><!-- /.contact-one-->
+
         <footer class="main-footer">
             <div class="container">
                 <div class="row row-gutter-y-30">
@@ -391,16 +430,15 @@
 	<script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
 	<script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
 	<script src="assets/vendors/nouislider/nouislider.min.js"></script>
-	<script src="assets/vendors/odometer/odometer.min.js"></script>
 	<script src="assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+	<script src="assets/vendors/odometer/odometer.min.js"></script>
 	<script src="assets/vendors/swiper/swiper.min.js"></script>
 	<script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
 	<script src="assets/vendors/wnumb/wNumb.min.js"></script>
 	<script src="assets/vendors/wow/wow.js"></script>
 	<script src="assets/vendors/isotope/isotope.js"></script>
 	<script src="assets/vendors/countdown/countdown.min.js"></script>
-	<script src="assets/vendors/highcharts/highcharts.min.js"></script>
-	<script src="assets/js/home-loan-calculator.js"></script>
+	
 	<!-- template js -->
 	<script src="assets/js/finlon.js"></script>
 </body>
